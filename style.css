@@ -1,0 +1,72 @@
+*,*::after,*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+}
+
+body {
+    min-height: 100vh;
+}
+
+html {
+    min-height: 100vh;
+    background-color: rgb(46, 46, 46);
+    color: white;
+}
+
+header {
+    text-align: center;
+    font-size: 30px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+a {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 100px;
+    border: 3px solid white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 30px;
+    transition: all 1.3s;
+}
+
+a:visited {
+    color: white;
+}
+
+
+a:hover {
+    transform: scale(1.4);
+}
+
+.coffee:hover {
+    background-color: burlywood;
+    color: black;
+}
+
+.master:hover {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.costume:hover {
+    background-color: rgb(37, 37, 184);
+}
+
+.art:hover {
+    background-color: rgb(204, 30, 30);
+}
